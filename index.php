@@ -29,6 +29,7 @@ $testoMod = str_replace($badword, '***', $testo);
         <p>
             <?php echo $testoMod ?>
         </p>
+        <p> <?php echo var_dump($testo) ?></p>
     </div>
 </body>
 </html>
